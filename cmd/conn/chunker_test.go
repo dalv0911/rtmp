@@ -1,7 +1,7 @@
 package conn
 
 import (
-	"github.com/WatchBeam/rtmp/chunk"
+	"github.com/dalv0911/rtmp/chunk"
 	"github.com/stretchr/testify/mock"
 )
 

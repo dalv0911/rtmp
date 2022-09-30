@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/WatchBeam/rtmp/handshake"
+	"github.com/dalv0911/rtmp/handshake"
 	"github.com/stretchr/testify/assert"
 )
 

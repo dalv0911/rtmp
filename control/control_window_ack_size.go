@@ -3,7 +3,7 @@ package control
 import (
 	"io"
 
-	"github.com/WatchBeam/rtmp/spec"
+	"github.com/dalv0911/rtmp/spec"
 )
 
 type WindowAckSize struct {

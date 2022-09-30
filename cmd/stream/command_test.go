@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/WatchBeam/amf0/encoding"
-	"github.com/WatchBeam/rtmp/cmd/stream"
+	"github.com/dalv0911/amf0/encoding"
+	"github.com/dalv0911/rtmp/cmd/stream"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -35,7 +35,7 @@ func TestCommandHeaderRead(t *testing.T) {
 func TestInvalidCommandHeaderRead(t *testing.T) {
 	var header stream.CommandHeader
 	buf := bytes.NewReader([]byte{
-	// Invalid payload, empty
+		// Invalid payload, empty
 	})
 
 	err := encoding.Unmarshal(buf, &header)

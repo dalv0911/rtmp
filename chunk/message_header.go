@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/WatchBeam/rtmp/spec"
+	"github.com/dalv0911/rtmp/spec"
 )
 
 var (

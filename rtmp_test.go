@@ -3,8 +3,8 @@ package rtmp_test
 import (
 	"testing"
 
-	"github.com/WatchBeam/rtmp"
-	"github.com/WatchBeam/rtmp/server"
+	"github.com/dalv0911/rtmp"
+	"github.com/dalv0911/rtmp/server"
 	"github.com/stretchr/testify/assert"
 )
 

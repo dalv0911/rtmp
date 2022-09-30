@@ -3,7 +3,7 @@ package control
 import (
 	"bytes"
 
-	"github.com/WatchBeam/rtmp/chunk"
+	"github.com/dalv0911/rtmp/chunk"
 )
 
 const (

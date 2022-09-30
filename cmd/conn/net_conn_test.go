@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/WatchBeam/amf0"
-	"github.com/WatchBeam/rtmp/chunk"
+	"github.com/dalv0911/amf0"
+	"github.com/dalv0911/rtmp/chunk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

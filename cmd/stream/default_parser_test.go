@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/WatchBeam/rtmp/cmd/stream"
+	"github.com/dalv0911/rtmp/cmd/stream"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -36,7 +36,7 @@ func TestParserReturnsParsingErrors(t *testing.T) {
 	p := stream.DefaultParser
 
 	cmd, err := p.Parse(bytes.NewReader([]byte{
-	// io.EOF
+		// io.EOF
 	}))
 
 	assert.Equal(t, err, io.EOF)

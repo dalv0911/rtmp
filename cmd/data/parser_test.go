@@ -1,8 +1,8 @@
 package data_test
 
 import (
-	"github.com/WatchBeam/rtmp/chunk"
-	"github.com/WatchBeam/rtmp/cmd/data"
+	"github.com/dalv0911/rtmp/chunk"
+	"github.com/dalv0911/rtmp/cmd/data"
 	"github.com/stretchr/testify/mock"
 )
 
